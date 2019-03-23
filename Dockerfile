@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 RUN apt update && \
-    apt -y install bzip2 curl language-pack-pl libglu1i libxi6 libxrender1 tar unzip wget zip \
+    apt -y install bzip2 curl language-pack-pl libglu1 libxi6 libxrender1 tar unzip wget zip \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /var/cache/apt/*
 
